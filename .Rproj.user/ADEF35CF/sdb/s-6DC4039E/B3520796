@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# first: install dependent packages\ninstall.packages(c(\"MASS\", \"akima\", \"robustbase\"))\n\n# second: install suggested packages\ninstall.packages(c(\"cobs\", \"robust\", \"mgcv\", \"scatterplot3d\", \"quantreg\", \"rrcov\", \"lars\", \"pwr\", \"trimcluster\", \"parallel\", \"mc2d\", \"psych\", \"Rfit\"))\n\n# third: install an additional package which provides some C functions\ninstall.packages(\"devtools\")\nlibrary(\"devtools\")\ninstall_github(\"mrxiaohe/WRScpp\")\ninstall_github(\"mrxiaohe/WRScppWin\")\n\n# fourth: install WRS\ninstall_github(\"nicebread/WRS\", subdir=\"pkg\", force = TRUE)\n\ninstall.packages('ggplot2', dependencies = TRUE)\nlibrary(ggplot2) \nlibrary(RColorBrewer)\ndata(\"diamonds\")\nqplot(data = diamonds, x = carat, y = price, color = cut) + \n  scale_color_brewer(palette = 'Accent')\n",
+    "created" : 1483892482232.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1448759290",
+    "id" : "B3520796",
+    "lastKnownWriteTime" : 1484025462,
+    "last_content_update" : 1484025462352,
+    "path" : "C:/Users/Susanta/Desktop/gaTech/CSE6242_DAV/ClassProjSpring17/RBasics.R",
+    "project_path" : "RBasics.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

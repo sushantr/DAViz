@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484026339665.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C11A1E79",
+    "lastKnownWriteTime" : 7872048195476398707,
+    "last_content_update" : 1484026339665,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B4CFF06",
+        "caption" : "reddit",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=reddit&cache_key=B4CFF06",
+        "displayedObservations" : 32754,
+        "environment" : "",
+        "object" : "reddit",
+        "preview" : 0,
+        "totalObservations" : 32754,
+        "variables" : 14
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
